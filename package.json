@@ -1,0 +1,24 @@
+{
+  "name": "e2e-jenkins-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "ci": "npx cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrecaredo/e2e-jenkins-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrecaredo/e2e-jenkins-cypress/issues"
+  },
+  "homepage": "https://github.com/rrecaredo/e2e-jenkins-cypress#readme",
+  "dependencies": {
+    "cypress": "^6.2.1"
+  }
+}
